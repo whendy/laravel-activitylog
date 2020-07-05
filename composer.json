@@ -1,5 +1,5 @@
 {
-    "name": "spatie/laravel-activitylog",
+    "name": "whendy/laravel-activitylog",
     "description": "A very simple activity logger to monitor the users of your website or application",
     "homepage": "https://github.com/spatie/activitylog",
     "keywords": [
@@ -31,9 +31,10 @@
     ],
     "require": {
         "php": "^7.2",
-        "illuminate/config": "^6.0|^7.0",
-        "illuminate/database": "^6.0|^7.0",
-        "illuminate/support": "^6.0|^7.0"
+        "illuminate/config": "5.8.*|^6.0|^7.0",
+        "illuminate/database": "5.8.*|^6.0|^7.0",
+        "illuminate/support": "5.8.*|^6.0|^7.0",
+        "spatie/string": "^2.1"
     },
     "require-dev": {
         "ext-json": "*",
